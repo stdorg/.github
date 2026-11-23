@@ -35,7 +35,7 @@ Implementations of distinct authorization models.
 ### Concurrency and Resource Management
 
 - [`object-pool`](https://github.com/stdorg/object-pool) — Object reuse and resource lifecycle management through pooling.
-- - [`object-storage`](https://github.com/stdorg/object-storage) — Abstractions for storing, retrieving, and managing objects across storage backends.
+  - [`object-storage`](https://github.com/stdorg/object-storage) — Abstractions for storing, retrieving, and managing objects across storage backends.
 - [`worker-pool`](https://github.com/stdorg/worker-pool) — Bounded concurrent task execution, workload distribution, and graceful shutdown.
 - [`rate-limiter`](https://github.com/stdorg/rate-limiter) — Configurable rate-limiting policies for controlling throughput and resource consumption.
 - [`file-lock`](https://github.com/stdorg/file-lock) — File locking for coordinating access to shared files across concurrent processes.
@@ -51,6 +51,10 @@ Implementations of distinct authorization models.
 ### Routing and Dispatch
 
 - [`router`](https://github.com/stdorg/router) — Generic routing abstractions for matching inputs to handlers through configurable rules and dispatch strategies.
+
+### Rule Evaluation and Inference
+
+- [`rule-engine`](https://github.com/stdorg/rule-engine) — Declarative rule evaluation with conflict resolution, priority ordering, and exception handling.
 
 ### Validation and Templates
 
